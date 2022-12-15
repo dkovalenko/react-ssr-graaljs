@@ -1,0 +1,9 @@
+**/node_modules/**
+build/*
+dist/*
+
+.metals
+.bsp
+.scala-build
+.vscode
+.codesandbox

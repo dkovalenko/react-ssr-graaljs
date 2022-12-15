@@ -1,0 +1,22 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "scripts": {
+    "build:client": "esbuild src/index.js --bundle --outfile=dist/bundle.js --loader:.js=jsx",
+    "build:server": "esbuild server/server.jsx --bundle --outfile=build/server.js --platform=node",
+    "build:server:graaljs": "esbuild server/server-graaljs.jsx --bundle --outfile=build/server-graaljs.js --platform=browser",
+    "build": "npm run build:client && npm run build:server",
+    "start": "node ./build/server-node.js"
+  },
+  "dependencies": {
+    "esbuild": "0.14.13",
+    "express": "4.17.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
