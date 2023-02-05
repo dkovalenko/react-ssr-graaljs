@@ -1,7 +1,7 @@
 
-//> using lib "org.graalvm.js:js:22.1.0"
-//> using lib "org.graalvm.sdk:graal-sdk:22.1.0"
-//> using lib "org.graalvm.truffle:truffle-api:22.1.0"
+//> using lib "org.graalvm.js:js:22.3.1"
+//> using lib "org.graalvm.sdk:graal-sdk:22.3.1"
+//> using lib "org.graalvm.truffle:truffle-api:22.3.1"
 
 import java.util.function.Consumer
 
