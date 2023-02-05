@@ -10,3 +10,4 @@ To run Javascript you have several options:
 3. Use GraalJS bundled with the runtime of the GraalVM.
 
 More on this in my blog:
+https://dkovalenko.net/react-ssr-graalvm/
